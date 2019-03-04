@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .air img{
+    width: 750px;
+    height: 80px;
+ 
+}
+headr .search img{
+    width: 750px;
+    height: 40px;
+}

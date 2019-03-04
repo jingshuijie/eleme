@@ -1,11 +1,12 @@
 ﻿import React from 'react';
-import Child from './Child'
+import Header from "./header/header.js"
+
 
 class App extends React.Component{
 render(){
 		return(
 			<div>
-				<h1>webpack 构建react开发环境</h1>
+			   <Header/>
 			</div>
 		)
 	}

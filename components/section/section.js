@@ -1,11 +1,15 @@
 import React from "react";
-improt ReactDOM from "react-dom";
-class section extends React.Component{
+import Shop from "./shop";
+class Section extends React.Component{
 render(){
-return <div>
-<section></section>
-</div>
+return(<section>
+<Shop/>
+<Shop/>
+<Shop/>
+<Shop/>
+
+</section>)
 }
 
 }
-export default section
+export default Section
